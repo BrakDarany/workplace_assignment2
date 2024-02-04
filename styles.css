@@ -1,0 +1,57 @@
+ 
+body{
+    margin: 0 auto; 
+    width: 80%; 
+}
+table{
+    width:1200px; 
+    border: 1px solid #ccc;
+    border-collapse: collapse; 
+}
+
+th{ 
+    color: #fff;
+    height: 40px;
+    background: #1600a1;
+    font-size: 14px;  
+    text-align: center;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+
+td{  
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 14px;
+    padding: 3px;
+}
+
+tr:hover{ 
+    background-color: #f7f7f7;  
+}
+
+td:hover{
+    padding: 5px;  
+    font-size: 12px;
+}
+
+
+#loading-indicator {
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-top-color: #3498db;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
