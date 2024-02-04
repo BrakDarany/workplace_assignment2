@@ -30,12 +30,6 @@ tr:hover{
     background-color: #f7f7f7;  
 }
 
-td:hover{
-    padding: 5px;  
-    font-size: 12px;
-}
-
-
 #loading-indicator {
     position: fixed;
     top: 50%;
